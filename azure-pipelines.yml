@@ -34,4 +34,4 @@ steps:
 
 - task: AzureStaticWebApp@0
   inputs:
-    app_location: 'C:\Users\etong\OneDrive\Desktop\CatWebsite'
+    app_location: '/'
