@@ -31,3 +31,7 @@ steps:
     targetPath: '$(Pipeline.Workspace)'
     artifact: 'artefact'
     publishLocation: 'pipeline'
+
+- task: AzureStaticWebApp@0
+  inputs:
+    app_location: 'C:\Users\etong\OneDrive\Desktop\CatWebsite'
