@@ -19,5 +19,5 @@ steps:
   inputs:
     ConnectionType: 'AzureRM'
     appType: 'webApp'
-    WebAppName: 
+    WebAppName: 'CatWebsite'
     packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.zip'
